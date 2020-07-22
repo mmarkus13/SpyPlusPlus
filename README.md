@@ -16,3 +16,14 @@ Spy++ lets you perform the following tasks:
 
  - Set message options by using complex message log selection parameters.
     
+# Find out what process registered a global hotkey? (Windows API)
+https://stackoverflow.com/questions/829007/find-out-what-process-registered-a-global-hotkey-windows-api
+<img src="https://devnullproxy.webnode.com/_files/200000387-9c8ad9c8af/Annotation%202020-07-22%20150557.png">
+###### #note that the 64-bit version of Spy++ catches only messages for 64-bit applications, so if you don't see the WM_HOTKEY message in the Message log after pressing the hotkey, you may need to run the 32-bit version of Spy++
+
+
+* if it is the AltGr+M (or Ctrl+Alt+M) that is not working for you, than it might be due to `NvidiaExperience` settings.
+```
+Nvidia Experience -> Settings -> Keyboard shortcuts -> disable/remap mic toggle
+```
+<img src="https://devnullproxy.webnode.com/_files/200000388-34afc34aff/image.png">
